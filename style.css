@@ -1,24 +1,28 @@
 body {
     margin: 0;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Хэдэр */
 
 .container {
-    margin: 0px 166px ;
+    margin: 0px 140px ;
 }
 
 .header {
     position: relative;
-    background-image:url(resources/mainBackground.jpg) ;
+    width: 100%;
+    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 1)), 
+    url(resources/mainBackground.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    background-attachment: fixed;
+    background-position: top;
+} 
 
 .header__line {
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,12 +30,13 @@ body {
 
 .header__image {
     width: 100px;
-    height: 68px;
+    height: 80px;
 }
 
 .nav__item {
-    color: #fff;
+    color:#000;
     text-decoration: none;
+    font-weight: 500;
     font-size: 15px;
     margin: 25px;
 
@@ -43,9 +48,9 @@ body {
 }
 
 .number_link {
-    color: #fff;
+    color:#000;
     text-decoration: none;
-    font-size: 18px ;
+    font-size: 20px ;
 }
 
 .number_link:hover {
@@ -55,23 +60,82 @@ body {
 
 .phone__text {
     font-size: 14px;
-    color: #fff;
+    color:#000;;
 }
 
 .phone__holder {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .button {
     padding: 14px 18px;
     background-color: #FF7400;
-    color: #fff;
+    color:#000;
+    border: 1px solid #FF7400;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .button:hover {
-    background-color: #fff;
+    background-color:#FFF;
+    border: 1px solid #000;
     color: #FF7400;
     transition: color 0.3s linear;
 }
+
+.header__title {
+    color:#FF7400;
+    font-family: Tinos;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.header__quote {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.header__quote:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 43px;
+    background-color: #FFF;
+    left: 370px;
+    bottom: 80px;
+}
+
+.header__quote:before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 43px;
+    background-color: #FFF;
+    right: 370px;
+    bottom: 80px;
+}
+
+.header__button {
+    padding: 14px 28px;
+    background-color: #FF7400;
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #FF7400;
+}
+
+.header__button:hover {
+    background-color:#FFF;
+    border: 1px solid #000;
+    color: #FF7400;
+    transition: color 0.3s linear;
+}
+
+
