@@ -185,4 +185,53 @@ h1 {
     text-align: center;
 }
 
+.aboutus {
+    margin-top: 166px;
+}
+
+.aboutus__title {
+    font-family: Tinos;
+    font-size: 54px;
+    text-align: center;
+}
+
+.aboutus__title span {
+    color: #FF7400;
+}
+
+.aboutus__description {
+    color: #656363;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 122px;
+}
+
+.gallery__slides {
+    position: relative;
+    width: 100%;
+}
+
+.gallery__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.gallery__slide_active {
+    opacity: 1;
+}
+
+.gallery__image {
+    width: 100%;
+}
+
+.gallery__controls {
+    z-index: 1;
+}
+
+
 
