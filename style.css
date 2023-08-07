@@ -81,8 +81,7 @@ body {
 .button:hover {
     background-color:#FFF;
     border: 1px solid #000;
-    color: #FF7400;
-    transition: color 0.3s linear;
+    transition: color 0.2s linear;
 }
 
 .header__title {
@@ -134,7 +133,6 @@ body {
 .header__button:hover {
     background-color:#FFF;
     border: 1px solid #000;
-    color: #FF7400;
     transition: color 0.3s linear;
 }
 
@@ -237,7 +235,11 @@ h1 {
     width: 100%;  
 } 
 
-.fields {
+.field__holder {
+    display: flex;
+}
+
+.school__fields {
     padding-top: 80px;
     padding-bottom: 70px;
     background-color: #000;
@@ -251,14 +253,10 @@ h1 {
     color: #000;
 }
 
-.fields_items {
-    display: flex;
-}
-
 .field__item {
     background-color: #FFF;
     text-align: center;
-    width: 33%;
+    width: 82%;
     padding-bottom: 30px;
     border-radius: 5px;
 }
@@ -270,9 +268,8 @@ h1 {
 
 .field__text {
     font-family: Tinos;
-    font-size: 26px;
-    padding-top: 16px;
-    padding-bottom: 17px;
+    font-size: 19px;
+    padding: 16px 10px 17px 10px;
 }
 
 .field__subtext {
@@ -283,10 +280,17 @@ h1 {
     background-color: #FF7400;
     text-decoration: none;
     padding: 14px 67px;
-    color: #FFF;
+    color: #000;
     font-size: 16px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.field__btn:hover {
+    background-color:#FFF;
+    border: 1px solid #000;
+    transition: color 0.3s linear;
 }
 
 .field__button {
