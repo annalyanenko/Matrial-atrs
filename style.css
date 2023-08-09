@@ -207,31 +207,100 @@ body {
 .card_description {
     display: flex;
     justify-content: center;
-    font-family: Tinos;
     font-size: 22px;
     text-align: center; 
 } 
 
-.aboutus {
-    margin-top: 166px;
+.section__about-us {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #FFF;
 }
 
-.aboutus__title {
+.about-us__title {
     font-family: Tinos;
     font-size: 54px;
     text-align: center;
+    line-height: 60px;
 }
 
-.aboutus__title span {
+.about-us__title span {
     color: #FF7400;
 }
 
-.aboutus__description {
-    color: #656363;
+.about-us__description {
+    margin-top: 21px;
+    margin-bottom: 60px;
+    font-family: Open Sans;
     font-size: 16px;
     text-align: center;
-    margin-top: 21px;
-    margin-bottom: 122px;
+    line-height: 25px;
+    color: #656363;
+}
+
+.field__holder {
+    display: flex;
+    gap: 40px;
+}
+
+.school__fields {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #000;
+}
+
+.field__title {
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    color: #000;
+}
+
+.field__item {
+    background-color: #FFF;
+    text-align: center;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+
+.field_img {
+    padding-top: 70px;
+    width: 75%;
+}
+
+.field__text {
+    font-family: Tinos;
+    font-size: 23px;
+    padding: 16px 10px 17px 10px;
+}
+
+.field__subtext {
+    font-family: Tinos;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+.field__btn {
+    background-color: #FF7400;
+    text-decoration: none;
+    padding: 14px 67px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.field__btn:hover {
+    background-color:#FFF;
+    border: 1px solid #000;
+    transition: color 0.3s linear;
+}
+
+.field__button {
+    margin-top: 20px;
 }
 
 .gallery {
@@ -263,67 +332,5 @@ body {
     position: absolute;
     width: 100%;  
 } 
-
-.field__holder {
-    display: flex;
-}
-
-.school__fields {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #000;
-}
-
-.field__title {
-    margin-bottom: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 34px;
-    text-align: center;
-    color: #000;
-}
-
-.field__item {
-    background-color: #FFF;
-    text-align: center;
-    width: 82%;
-    padding-bottom: 30px;
-    border-radius: 5px;
-}
-
-.field_img {
-    padding-top: 70px;
-    width: 75%;
-}
-
-.field__text {
-    font-family: Tinos;
-    font-size: 19px;
-    padding: 16px 10px 17px 10px;
-}
-
-.field__subtext {
-    font-size: 16px;
-}
-
-.field__btn {
-    background-color: #FF7400;
-    text-decoration: none;
-    padding: 14px 67px;
-    color: #000;
-    font-size: 16px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-}
-
-.field__btn:hover {
-    background-color:#FFF;
-    border: 1px solid #000;
-    transition: color 0.3s linear;
-}
-
-.field__button {
-    margin-top: 20px;
-}
 
 
