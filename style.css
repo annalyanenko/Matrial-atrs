@@ -1,12 +1,13 @@
 body {
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: #000;
 }
 
 /* Хэдэр */
 
 .container {
-    margin: 0px 140px ;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .header {
@@ -34,31 +35,37 @@ body {
 }
 
 .nav__item {
-    color:#000;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 15px;
     margin: 25px;
-
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color:#000;
 }
 
 .nav__item:hover {
-    color: #FF7400;
+    opacity: 0.5;
     transition: color 0.3s linear;
 }
 
 .number_link {
-    color:#000;
+    width: 131px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    font-size: 20px ;
+    font-size: 20px;
+    color:#000;
 }
 
 .number_link:hover {
-    color: #FF7400;
+    opacity: 0.5;
     transition: color 0.3s linear;
 }
 
 .phone__text {
+    width: 180px;
+    height: 38px;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color:#000;;
 }
@@ -70,12 +77,16 @@ body {
 }
 
 .button {
+    width: 157px;
+    height: 47px;
     padding: 14px 18px;
     background-color: #FF7400;
-    color:#000;
     border: 1px solid #FF7400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     text-decoration: none;
     border-radius: 5px;
+    color:#000;
 }
 
 .button:hover {
@@ -84,50 +95,62 @@ body {
     transition: color 0.2s linear;
 }
 
+.header__down {
+    position: relative;
+}
+
 .header__title {
-    color:#FF7400;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    padding-bottom: 20px;
     font-family: Tinos;
     font-size: 50px;
     text-align: center;
-    margin-top: 300px;
+    color:#FF7400;
 }
 
 .header__quote {
-    color: #FFF;
     font-family: Open Sans;
     font-size: 18px;
+    margin-top: 20px;
     margin-bottom: 10px;
+    color: #FFF;
 }
 
 .header__quote:after {
     position: absolute;
+    top: 130px;
+    left: -48px;
     content: '';
     height: 1px;
     width: 43px;
     background-color: #FFF;
-    left: 370px;
-    bottom: 103px;
 }
 
 .header__quote:before {
     position: absolute;
+    top: 130px;
+    left: 688px;
     content: '';
     height: 1px;
     width: 43px;
     background-color: #FFF;
-    right: 370px;
-    bottom: 103px;
+}
+
+.header__btn {
+    margin-top: 40px;
 }
 
 .header__button {
     padding: 14px 28px;
-    background-color: #FF7400;
-    color:#000;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #FF7400;
+    background-color: #FF7400;
+    color:#000;
 }
 
 .header__button:hover {
@@ -241,7 +264,7 @@ h1 {
 
 .school__fields {
     padding-top: 80px;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
     background-color: #000;
 }
 
@@ -296,3 +319,5 @@ h1 {
 .field__button {
     margin-top: 20px;
 }
+
+
