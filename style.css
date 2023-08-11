@@ -331,66 +331,10 @@ body {
     border: 1px solid #FFF;
     background-color: #FFFFFF;
 }
-    
-.gallery {
-    position: relative;
-    height: 717px;
-}
-
-.gallery__slides {
-    width: 100%;
-}
-
-.gallery__slide {
-  
-    position: absolute;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-}
-
-.gallery__slide-active {
-    opacity: 1;
-}
-
-.gallery__image {
-    max-width:100%;
-    max-height:100%;
-}
-
-.gallery__control-prev, 
-.gallery__control-next {
-    position: absolute;
-    border: none;
-    background: none;
-    bottom: 165px;
-    z-index: 10;
-    width: 30px;
-    height: 40px;
-}
-
-.gallery__control-prev:hover, 
-.gallery__control-next:hover {
-    opacity: 0.5;
-}
-
-.gallery__control-prev {
-    left: 35px;
-    background-image: url(resources/arrow-left.png);
-    background-repeat: no-repeat;
-}
-
-.gallery__control-next {
-    right: 35px;
-    background-image: url(resources/arrow-left.png);
-    background-repeat: no-repeat;
-    transform: rotate(180deg);
-
-}
 
 .school__workers {
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 70px;
     background-color: #FFF;
 }
 
@@ -420,7 +364,8 @@ body {
 .worker__item {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #000;
+    background-color: #FFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
     text-align: center;
     border-radius: 5px;
 }
@@ -433,7 +378,7 @@ body {
 .worker__name {
     font-family: Tinos;
     font-size: 23px;
-    color: #FFF;
+    color: #000;
     padding: 16px 10px 17px 10px;
 }
 
@@ -470,11 +415,10 @@ body {
 }
 
 .contacts__title {
-    margin-bottom: 24px;
+    margin-bottom: 60px;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     text-align: center;
-    text-transform: uppercase;
     color: #000;
 }
 
@@ -482,13 +426,17 @@ body {
     display: flex;
     column-gap: 104px;
     flex-wrap: wrap;
+    justify-content: center;
 }
-    
+
 .phone__link,
-.email__link {
+.email__link,
+.location__link {
     display: block;
+    width: 300px;
+    margin-bottom: 60px;
     font-family: Tinos;
-    font-size: 30px;
+    font-size: 21px;
     line-height: 30px;
     text-decoration: none;
     transition: 0.5s;
@@ -496,7 +444,8 @@ body {
 }
 
 .contacts__phone:before,
-.contacts__email:before {
+.contacts__email:before,
+.contacts__location:before {
     content: '';
     display: block;
     margin-bottom: 26px;
@@ -507,6 +456,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.contacts__location:before {
+    width: 32px;
+}
+
+.contacts__location:before {
+    background-image: url('resources/location__icon.png');
+}
+
 .contacts__phone:before {
     background-image: url('resources/phone.png');
 }
@@ -515,6 +472,7 @@ body {
     background-image: url('resources/icon_email.png');
 }
 
+.contacts__location:hover,
 .contacts__phone:hover,
 .contacts__email:hover {
     opacity: 0.5;
