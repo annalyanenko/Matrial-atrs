@@ -22,11 +22,11 @@
                         <img class="header__image" src="resources/logo.svg" alt="Логотип школы борьбы Игоря Шкарина">
                     </div>
                     <div class="nav">
-                        <a class="nav__item" href="#">О НАС</a>
-                        <a class="nav__item" href="#">НАПРАВЛЕНИЯ</a>
-                        <a class="nav__item" href="#">КОМАНДА</a>
+                        <a class="nav__item" href="#about-us">О НАС</a>
+                        <a class="nav__item" href="#fields">НАПРАВЛЕНИЯ</a>
+                        <a class="nav__item" href="#ourteam">КОМАНДА</a>
                         <a class="nav__item" href="#">НОВОСТИ</a>
-                        <a class="nav__item" href="#">КОНТАКТЫ</a>
+                        <a class="nav__item" href="#contacts">КОНТАКТЫ</a>
                     </div>
                     <div class="phone">
                         <div class="phone__holder">
@@ -34,7 +34,7 @@
                                 <img src="resources/phoneicon.svg" alt="Телефон">
                             </div>
                             <div>
-                                <a class="number_link" href="#">+7 (926) 400-35-52</a>
+                                <a class="number_link" href="tel:+79264003552">+7 (926) 400-35-52</a>
                             </div>
                         </div>
                         <div class="phone__text">
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="btn">
-                        <a class="button" href="#">ЗАПИСЬ НА ТРЕНИРОВКУ</a>
+                        <a class="button" href="#">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</a>
                     </div>
                 </div>
             <div class="header__down">
@@ -105,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section class="section__about-us">
+        <section id="about-us" class="section__about-us">
             <div class="about-us">
                 <div class="container">
                     <div class="about-us__info">
@@ -124,11 +124,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
+        <section id="fields" class="school__fields">
             <div>
                 <h2 class="field__title">Основные направления</h2>
             </div>
-        <section class="school__fields">
             <div class="container">
                 <div class="field__holder">
                     <div class="fields__items">
@@ -183,12 +183,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="fields_full-width-btn">
+                <div class="js-btn fields_full-width-btn">
                     <button class="full-width-btn">Записаться на тренировку</button>
                 </div>
             </div>
+            <div class="js-popup popup">
+                <div class="js-popup__content popup__content">
+                    <button class="js-popup__close-btn popup__close-btn"></button>
+                    <p class="popup__title">Записаться на тренировку</p>
+                    <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+                    <form class="order__form">
+                        <input 
+                        class="input order__input"
+                        type="name"
+                        placeholder="Имя"/>
+                        <input 
+                        class="input order__input"
+                        type="phone"
+                        placeholder="Номер телефона"/>
+                        <input 
+                        class="input order__input"
+                        type="text"
+                        placeholder="Вопрос"/>
+                    </form>
+                    <button class="full-width-btn-small">Отправить</button>
+                </div>
+            </div>
         </section>
-        <section class="school__workers">
+        <section id="ourteam" class="school__workers">
             <div class="container">
                 <h2 class="workers__title">Команда</h2>
                 <p class="workers__subtitle">Наша команда - это лучшие люди в своем деле</p>
@@ -237,7 +259,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-contacts">
+        <section id="contacts" class="section-contacts">
             <div class="container">
                 <p class="contacts__title">Контакты</p>
                 <div class="contacts__wrapper">
@@ -265,7 +287,7 @@
                 <p class="footer__text">© Школа Игоря Шкарина — 2023</p> 
             </div>
         </footer>
-        <script src="gallery.js"></script>
+        <script src="popup.js"></script>
     </main>
 </body>
 </html>
