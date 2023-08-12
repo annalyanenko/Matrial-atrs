@@ -18,9 +18,9 @@
         <div class="header">
             <div class="container">
                 <div class="header__line">
-                    <div class="header__logo">
+                    <a class="header__logo" href="/index.html">
                         <img class="header__image" src="resources/logo.svg" alt="Логотип школы борьбы Игоря Шкарина">
-                    </div>
+                    </a>
                     <div class="nav">
                         <a class="nav__item" href="#about-us">О НАС</a>
                         <a class="nav__item" href="#fields">НАПРАВЛЕНИЯ</a>
@@ -60,7 +60,7 @@
     </div>
     </header>
     <main>
-        <section class="section-advantages">
+        <section id="about-us" class="section-advantages">
             <div class="cards">
                 <div class="container">
                     <h2 class="cards__main-title">Почему мы?</h2>
@@ -105,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section id="about-us" class="section__about-us">
+        <section class="section__about-us">
             <div class="about-us">
                 <div class="container">
                     <div class="about-us__info">
@@ -139,7 +139,7 @@
                             <div class="field__text">Дзюдо/Самбо</div>
                             <div class="field__subtext">6000₽/мес</div>
                             <div class="field__button">
-                                <a class="field__btn">Посмотреть</a>
+                                <a class="field__btn" href="/judo.html">Посмотреть</a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                             <div class="field__text">Художественная гимнастика</div>
                             <div class="field__subtext">7000₽/мес</div>
                             <div class="field__button">
-                                <a class="field__btn">Посмотреть</a>
+                                <a class="field__btn" href="/gymnastics.html">Посмотреть</a>
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                             <div class="field__text">Йога</div>
                             <div class="field__subtext">от 4500₽/мес</div>
                             <div class="field__button">
-                                <a class="field__btn">Посмотреть</a>
+                                <a class="field__btn" href="/yoga.html">Посмотреть</a>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                             <div class="field__text">Пилатес</div>
                             <div class="field__subtext">от 4500₽/мес</div>
                             <div class="field__button">
-                                <a class="field__btn">Посмотреть</a>
+                                <a class="field__btn" href="/pilates.html">Посмотреть</a>
                             </div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                     <button class="full-width-btn">Записаться на тренировку</button>
                 </div>
             </div>
-            <div class="js-popup popup">
+            <!-- <div class="js-popup popup">
                 <div class="js-popup__content popup__content">
                     <button class="js-popup__close-btn popup__close-btn"></button>
                     <p class="popup__title">Записаться на тренировку</p>
@@ -208,7 +208,7 @@
                     </form>
                     <button class="full-width-btn-small">Отправить</button>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section id="ourteam" class="school__workers">
             <div class="container">
@@ -219,21 +219,21 @@
                         <img class="worker__image" src="resources/shkarin.jpg" alt="Тренер Игорь Шкарин">
                         <div class="worker__name">Игорь Шкарин</div>
                         <div class="worker__button">
-                         <a href="" class="worker__btn">Подробнее</a>
+                         <a href="#" class="worker__btn">Подробнее</a>
                         </div>
                     </div>
                     <div class="worker__item">
                         <img class="worker__image" src="resources/bronitskiy.jpg" alt="Тренер Роберт Броницкий">
                         <div class="worker__name">Роберт Броницкий</div>
                         <div class="worker__button">
-                         <a href="" class="worker__btn">Подробнее</a>
+                         <a href="#" class="worker__btn">Подробнее</a>
                         </div>
                     </div>
                     <div class="worker__item">
                         <img class="worker__image" src="resources/sokolov.jpg" alt="Юрий Соколов">
                         <div class="worker__name">Юрий Соколов</div>
                         <div class="worker__button">
-                         <a href="" class="worker__btn">Подробнее</a>
+                         <a href="#" class="worker__btn">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -242,14 +242,14 @@
                         <img class="worker__image" src="resources/usov.jpg" alt="Тренер Дмитрий Усов">
                         <div class="worker__name">Дмитрий Усов</div>
                         <div class="worker__button">
-                         <a href="" class="worker__btn">Подробнее</a>
+                         <a href="#" class="worker__btn">Подробнее</a>
                         </div>
                     </div>
                     <div class="worker__item">
                         <img class="worker__image" src="resources/vinogradov.jpg" alt="Тренер Андрей Виноградов">
                         <div class="worker__name">Андрей Виноградов</div>
                         <div class="worker__button">
-                         <a href="" class="worker__btn">Подробнее</a>
+                         <a href="#" class="worker__btn">Подробнее</a>
                         </div>
                     </div>
                     <div class="worker__item">
@@ -264,13 +264,13 @@
                 <p class="contacts__title">Контакты</p>
                 <div class="contacts__wrapper">
                     <div class="contacts__location">
-                        <a href="" class="location__link">Москва, ул. Стартовая, 9, корп. 2</a>
+                        <a class="location__link" target="_blank" href="https://yandex.ru/maps/213/moscow/house/startovaya_ulitsa_9k2/Z04YcQdhTkYBQFtvfXR5d39gYw==/?ll=37.701736%2C55.886337&z=16">Москва, ул. Стартовая, 9, корп. 2</a>
                     </div>
                     <div class="contacts__phone">
                         <a class="phone__link" href="tel:+79358954535">+7 (926) 400-35-52</a>
                     </div>
                    <div class="contacts__email">
-                        <a class="email__link" target="_blank" href="">Shkarin.club@mail.ru</a>
+                        <a class="email__link" target="_blank" href="mailto:Shkarin.club@mail.ru">Shkarin.club@mail.ru</a>
                    </div>
                 </div>
             </div>
@@ -278,11 +278,11 @@
         <footer>
             <div class="container">
                     <nav class="footer__nav">
-                        <a class="footer__nav-link" href="#">О НАС</a>
-                        <a class="footer__nav-link" href="#">НАПРАВЛЕНИЯ</a>
-                        <a class="footer__nav-link" href="#">КОМАНДА</a>
+                        <a class="footer__nav-link" href="#about-us">О НАС</a>
+                        <a class="footer__nav-link" href="#fields">НАПРАВЛЕНИЯ</a>
+                        <a class="footer__nav-link" href="#ourteam">КОМАНДА</a>
                         <a class="footer__nav-link" href="#">НОВОСТИ</a>
-                        <a class="footer__nav-link" href="#">КОНТАКТЫ</a>
+                        <a class="footer__nav-link" href="#contacts">КОНТАКТЫ</a>
                     </nav>
                 <p class="footer__text">© Школа Игоря Шкарина — 2023</p> 
             </div>
