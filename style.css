@@ -249,7 +249,6 @@ body {
 
 .school__fields {
     padding-top: 60px;
-    padding-bottom: 80px;
     background-color: #000;
 }
 
@@ -314,8 +313,8 @@ body {
 
 .full-width-btn {
     display: block;
-    margin-top: 104px;
-    margin-bottom: 25px;
+    margin-top: 110px;
+    margin-bottom: 110px;
     width: 1150px;
     height: 153px;
     font-size: 25px;
@@ -336,87 +335,10 @@ body {
     background-color: #FFFFFF;
 }
 
-.school__workers {
-    padding-top: 45px;
-    padding-bottom: 70px;
-    background-color: #FFF;
-}
-
-.workers__title {
-    margin-top: 32px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: #000;
-}
-
-.workers__subtitle {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #000;
-}
-
-.workers__items {
-    display: flex;
-    gap: 40px;
-    
-}
-
-.worker__item {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #FFF;
-    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
-    text-align: center;
-    border-radius: 5px;
-}
-
-.worker__image {
-    width: 60%;
-    border-radius: inherit;
-}
-
-.worker__name {
-    font-family: Tinos;
-    font-size: 23px;
-    color: #000;
-    padding: 16px 10px 17px 10px;
-}
-
-.worker__button {
-    margin-top: 15px;
-}
-
-.worker__btn {
-    background-color: #FF7400;
-    text-decoration: none;
-    padding: 14px 67px;
-    color: #000;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-}
-
-.worker__btn:hover {
-    background-color:#FFF;
-    border: 1px solid #000;
-    transition: color 0.3s linear;
-}
-
-.workers__items-row {
-    margin-top: 40px;
-    display: flex;
-    gap: 40px;
-}
-
 .section-contacts {
+    padding-bottom: 90px;
+    padding-top: 70px;
     background-color: #FFF;
-    padding-bottom: 50px;
 }
 
 .contacts__title {
@@ -432,6 +354,7 @@ body {
     column-gap: 104px;
     justify-content: center;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 80px 0px 80px 0px;
 }
 
 .location__link-msc,
