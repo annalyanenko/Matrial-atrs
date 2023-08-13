@@ -168,15 +168,12 @@ body {
     color: #000;
 }
 
-
-
-
 .gallery-section {
+    position: relative;
     background-color: #FFF;
     padding-bottom: 50px;
 }
 .gallery {
-    position: relative;
     width: 700px;
     height: 500px;
     margin: 0 auto;
@@ -199,19 +196,27 @@ body {
   .next-btn {
     position: absolute;
     top: 50%;
+    width: 80px;
+    height: 80px;
     transform: translateY(-50%);
-    font-size: 24px;
-    background-color: transparent;
-    border-radius: 10px;
-    color: #fff;
+    font-size: 35px;
+    border-radius: 50%;
+    border: none;
+    color: grey;
+    transition: transform 0.5s;
+  }
+
+  .prev-btn:hover,
+  .next-btn:hover {
+    transform: translateY(-5px);
   }
   
   .prev-btn {
-    left: 10px;
+    left: 275px;
   }
   
   .next-btn {
-    right: 10px;
+    right: 275px;
   }
 
 
