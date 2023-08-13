@@ -1,35 +1,18 @@
-const slides = document.querySelector('.slides');
-const fullScreenOverlay = document.querySelector('.full-screen-overlay');
-const fullScreenSlides = document.querySelector('.full-screen-slides');
-const closeBtn = document.querySelector('.close-btn');
-const slideWidth = document.querySelector('.slide').offsetWidth;
+var currentSlide = 0;
+var slides = document.getElementsByClassName("slide");
 
-let slideIndex = 0;
-
-function openFullScreen(index) {
-  slideIndex = index;
-  fullScreenOverlay.style.display = 'flex';
-  fullScreenSlides.style.transform = `translateX(-${slideIndex * 100}%)`;
-}
-
-function closeFullScreen() {
-  fullScreenOverlay.style.display = 'none';
-}
-
-function prevSlide() {
-  slideIndex--;
-  if (slideIndex < 0) {
-    slideIndex = slides.children.length - 1;
+function changeSlide(n) {
+  currentSlide += n;
+  
+  if (currentSlide >= slides.length) {
+    currentSlide = 0;
+  } else if (currentSlide < 0) {
+    currentSlide = slides.length - 1;
   }
-  slides.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-  fullScreenSlides.style.transform = `translateX(-${slideIndex * 100}%)`;
-}
-
-function nextSlide() {
-  slideIndex++;
-  if (slideIndex === slides.children.length) {
-    slideIndex = 0;
+  
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
   }
-  slides.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-  fullScreenSlides.style.transform = `translateX(-${slideIndex * 100}%)`;
+  
+  slides[currentSlide].classList.add("active");
 }

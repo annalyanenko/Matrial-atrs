@@ -77,120 +77,20 @@
         </div>   
     </section>
 
-    <section class="section-instructors">
-        <div class="container">
-            <h2 class="instructors__title">Тренеры</h2>
-
-            <div class="instructors__items">
-                <div class="instructor__item">
-                    <img class="instructor__image" src="resources/shkarin_inst.jpg" alt="Фотография тренера Игоря Шкарина"></img>
-                    <div class="instructor__name">Игорь Николаевич<br>Шкарин</div>
-                   <!--  <div class="instructor__description">
-                        <p class="instructor__advances">Достижения:</p>
-                        <ul>
-                            <li class="advances__list">- Мастер спорта СССР международного класса</li>
-                            <li class="advances__list">- Заслуженный тренер России</li>
-                            <li class="advances__list">- Чемпион СССР (1988)</li>
-                            <li class="advances__list">- Высшая квалификационная тренерская категория</li>
-                            <li class="advances__list">- Работал старшим тренером сборной команды России по дзюдо</li>
-                        </ul>
-                    </div> -->
-                </div>
-
-                <div class="instructor__item">
-                    <img class="instructor__image" src="resources/bronitskiy.jpg" alt="Фотография тренера Роберта Броницкого"></img>
-                    <div class="instructor__name">Роберт Броницкий</div>
-                    <!-- <div class="instructor__description">
-                        <p class="instructor__advances">Достижения:</p>
-                        <ul>
-                            <li class="advances__list">- Мастер спорта России</li>
-                            <li class="advances__list">- Неоднократный победитель и призер Российских соревнований</li>
-                        </ul>
-                    </div> -->
-                </div>
-
-
-                <div class="instructor__item">
-                    <img class="instructor__image" src="resources/sokolov.jpg" alt="Фотография тренера Юрия Соколова"></img>
-                    <div class="instructor__name">Юрий Соколов</div>
-                    <!-- <div class="instructor__description">
-                        <p class="instructor__advances">Достижения:</p>
-                        <ul>
-                            <li class="advances__list">- Кандидат мастера спорта по дзюдо и самбо</li>
-                            <li class="advances__list">- 5-ти кратный победитель первенства Московской области по дзюдо</li>
-                            <li class="advances__list">- 3-х кратный победитель Московской области по самбо</li>
-                            <li class="advances__list">- Победитель и призер первенств центрального федерального округа</li>
-                        </ul>
-                    </div> -->
-                </div>
-
-                <div class="instructor__item">
-                    <img class="instructor__image" src="resources/usov.jpg" alt="Фотография тренера Дмитрия Усова"></img>
-                    <div class="instructor__name">Дмитрий Усов</div>
-                    <!-- <div class="instructor__description">
-                        <p class="instructor__advances">Достижения:</p>
-                        <ul>
-                            <li class="advances__list">- Мастер спорта по самбо</li>
-                            <li class="advances__list">- Кандидат мастера спорта по дзюдо</li>
-                            <li class="advances__list">- 3-х кратный чемпион ЦФО по самбо среди мужчин</li>
-                            <li class="advances__list">- Бронзовый призер сообщества Динамо по дзюдо</li>
-                            <li class="advances__list">- Бронзовый призер финала летней спартакиады по дзюдо до 18 лет</li>
-                        </ul>
-                    </div> -->
-                </div>
-                <div class="instructor__item">
-                    <img class="instructor__image" src="resources/vinogradov.jpg" alt="Фотография тренера Андрея Виноградова"></img>
-                    <div class="instructor__name">Андрей Виноградов</div>
-                    <!-- <div class="instructor__description">
-                        <p class="instructor__advances">Достижения:</p>
-                        <ul>
-                            <li class="advances__list">- Кандидат в мастера спорта по дзюдо и самбо</li>
-                            <li class="advances__list">- Победитель и призёр Первенства Москвы</li>
-                            <li class="advances__list">- Призер Кубка Будапешта</li>
-                            <li class="advances__list">- Победитель и призёр Международных и Всероссийских соревнований по дзюдо и самбо</li>
-                            <li class="advances__list">- Член московской коллегии судей по дзюдо и самбо</li>
-                        </ul>
-                    </div> -->
-                </div>
-            </div> 
-        </div>   
-    </section>
-    <div class="container-gallery">
+    <section class="gallery-section">
         <div class="gallery">
-            <div class="slides">
-            <div class="slide">
-                <img src="resources/judo_first.jpg" alt="Фотография с тренировки" onclick="openFullScreen(0)">
-            </div>
-            <div class="slide">
-                <img src="resources/judo_second.jpg" alt="Фотография с тренировки" onclick="openFullScreen(1)">
-            </div>
-            <div class="slide">
-                <img src="resources/judo_third.jpg" alt="Фотография с тренировки" onclick="openFullScreen(2)">
-            </div>
-            </div>
-            <div class="controls">
-            <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
-            <button class="next-btn" onclick="nextSlide()">&#10095;</button>
-            </div>
-        </div>
-        <div class="full-screen-overlay">
-            <button class="close-btn" onclick="closeFullScreen()">&times;</button>
-            <div class="full-screen-slides">
-            <div class="full-screen-slide">
-                <img src="resources/judo_first.jpg" alt="Фотография с тренировки">
-            </div>
-            <div class="full-screen-slide">
-                <img src="resources/judo_second.jpg" alt="Фотография с тренировки">
-            </div>
-            <div class="full-screen-slide">
-                <img src="resources/judo_third.jpg" alt="Фотография с тренировки">
-            </div>
-            </div>
-        </div>
-    </div>
-    
-
-
+            <button class="prev-btn" onclick="changeSlide(-1)">&lt;</button>
+            <img src="resources/judo_first.jpg" alt="Фото 1" class="slide active">
+            <img src="resources/judo_second.jpg" alt="Фото 2" class="slide">
+            <img src="resources/judo_third.jpg" alt="Фото 3" class="slide">
+            <img src="resources/judo_fourth.jpg" alt="Фото 3" class="slide">
+            <img src="resources/judo_fifth.jpg" alt="Фото 3" class="slide">
+            <img src="resources/judo_sixth.jpg" alt="Фото 3" class="slide">
+            <img src="resources/judo_seven.jpg" alt="Фото 3" class="slide">
+            <img src="resources/judo_eight.jpg" alt="Фото 3" class="slide">
+            <button class="next-btn" onclick="changeSlide(1)">&gt;</button>
+          </div>
+    </section>
 <section class="price-section">
     <div class="container">
         <h2 class="services__title">Стоимость тренировок</h2>
@@ -239,6 +139,85 @@
           </div>
     </div> 
 </section> 
+
+<section class="section-instructors">
+    <div class="container">
+        <h2 class="instructors__title">Тренеры</h2>
+
+        <div class="instructors__items">
+            <div class="instructor__item">
+                <img class="instructor__image" src="resources/shkarin_inst.jpg" alt="Фотография тренера Игоря Шкарина"></img>
+                <div class="instructor__name">Игорь Николаевич<br>Шкарин</div>
+               <!--  <div class="instructor__description">
+                    <p class="instructor__advances">Достижения:</p>
+                    <ul>
+                        <li class="advances__list">- Мастер спорта СССР международного класса</li>
+                        <li class="advances__list">- Заслуженный тренер России</li>
+                        <li class="advances__list">- Чемпион СССР (1988)</li>
+                        <li class="advances__list">- Высшая квалификационная тренерская категория</li>
+                        <li class="advances__list">- Работал старшим тренером сборной команды России по дзюдо</li>
+                    </ul>
+                </div> -->
+            </div>
+
+            <div class="instructor__item">
+                <img class="instructor__image" src="resources/bronitskiy.jpg" alt="Фотография тренера Роберта Броницкого"></img>
+                <div class="instructor__name">Роберт Броницкий</div>
+                <!-- <div class="instructor__description">
+                    <p class="instructor__advances">Достижения:</p>
+                    <ul>
+                        <li class="advances__list">- Мастер спорта России</li>
+                        <li class="advances__list">- Неоднократный победитель и призер Российских соревнований</li>
+                    </ul>
+                </div> -->
+            </div>
+
+
+            <div class="instructor__item">
+                <img class="instructor__image" src="resources/sokolov.jpg" alt="Фотография тренера Юрия Соколова"></img>
+                <div class="instructor__name">Юрий Соколов</div>
+                <!-- <div class="instructor__description">
+                    <p class="instructor__advances">Достижения:</p>
+                    <ul>
+                        <li class="advances__list">- Кандидат мастера спорта по дзюдо и самбо</li>
+                        <li class="advances__list">- 5-ти кратный победитель первенства Московской области по дзюдо</li>
+                        <li class="advances__list">- 3-х кратный победитель Московской области по самбо</li>
+                        <li class="advances__list">- Победитель и призер первенств центрального федерального округа</li>
+                    </ul>
+                </div> -->
+            </div>
+
+            <div class="instructor__item">
+                <img class="instructor__image" src="resources/usov.jpg" alt="Фотография тренера Дмитрия Усова"></img>
+                <div class="instructor__name">Дмитрий Усов</div>
+                <!-- <div class="instructor__description">
+                    <p class="instructor__advances">Достижения:</p>
+                    <ul>
+                        <li class="advances__list">- Мастер спорта по самбо</li>
+                        <li class="advances__list">- Кандидат мастера спорта по дзюдо</li>
+                        <li class="advances__list">- 3-х кратный чемпион ЦФО по самбо среди мужчин</li>
+                        <li class="advances__list">- Бронзовый призер сообщества Динамо по дзюдо</li>
+                        <li class="advances__list">- Бронзовый призер финала летней спартакиады по дзюдо до 18 лет</li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="instructor__item">
+                <img class="instructor__image" src="resources/vinogradov.jpg" alt="Фотография тренера Андрея Виноградова"></img>
+                <div class="instructor__name">Андрей Виноградов</div>
+                <!-- <div class="instructor__description">
+                    <p class="instructor__advances">Достижения:</p>
+                    <ul>
+                        <li class="advances__list">- Кандидат в мастера спорта по дзюдо и самбо</li>
+                        <li class="advances__list">- Победитель и призёр Первенства Москвы</li>
+                        <li class="advances__list">- Призер Кубка Будапешта</li>
+                        <li class="advances__list">- Победитель и призёр Международных и Всероссийских соревнований по дзюдо и самбо</li>
+                        <li class="advances__list">- Член московской коллегии судей по дзюдо и самбо</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div> 
+    </div>   
+</section>
     
     
         
