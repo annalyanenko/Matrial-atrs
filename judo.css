@@ -128,69 +128,13 @@ body {
     text-align: justify;
 }
 
-.section-instructors {
-    background-color: #FFF;
-}
-
-.instructors__title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: #000;
-}
-
-.instructors__items {
-    display: flex;
-}
-
-.instructor__item {
-    width: 390px;
-    padding-top: 60px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.instructor__image {
-    width: 60%;
-    border-radius: inherit;
-}
-
-.instructor__name {
-    font-family: Tinos;
-    font-size: 23px;
-    line-height: 31px;
-    padding: 16px 10px 17px 10px;
-    color: #000;
-}
-
-.instructor__description {
-    padding: 16px 10px 17px 10px;
-}
-
-.instructor__advances {
-    padding-bottom: 10px;
-    font-family: Tinos;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-}
-
-.advances__list {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-}
-
-
-
 .gallery-section {
     background-color: #FFF;
     padding-bottom: 50px;
 }
 .gallery {
     position: relative;
-    width: 500px;
+    width: 700px;
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
