@@ -182,6 +182,113 @@ body {
     text-align: center;
 }
 
+
+.container-gallery {
+    background-color: #FFF;
+    width: 100%;
+}
+.gallery {
+    position: relative;
+    width: 200px;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .prev-btn,
+  .next-btn {
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    opacity: 1;
+  }
+  
+  .prev-btn {
+    margin-right: 10px;
+  }
+  
+  .full-screen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    z-index: 9999;
+  }
+  
+  .full-screen-slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .full-screen-slide {
+    flex-shrink: 0;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 20px;
+  }
+  
+  .full-screen-slide img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
+
 .services__title {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;

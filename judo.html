@@ -155,12 +155,40 @@
             </div> 
         </div>   
     </section>
-    
-    <div class="gallery">
-        <img src="path_to_image1.jpg" alt="Image description 1">
-        <img src="path_to_image2.jpg" alt="Image description 2">
-        <img src="path_to_image3.jpg" alt="Image description 3">
+    <div class="container-gallery">
+        <div class="gallery">
+            <div class="slides">
+            <div class="slide">
+                <img src="resources/judo_first.jpg" alt="Фотография с тренировки" onclick="openFullScreen(0)">
+            </div>
+            <div class="slide">
+                <img src="resources/judo_second.jpg" alt="Фотография с тренировки" onclick="openFullScreen(1)">
+            </div>
+            <div class="slide">
+                <img src="resources/judo_third.jpg" alt="Фотография с тренировки" onclick="openFullScreen(2)">
+            </div>
+            </div>
+            <div class="controls">
+            <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+            <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+        <div class="full-screen-overlay">
+            <button class="close-btn" onclick="closeFullScreen()">&times;</button>
+            <div class="full-screen-slides">
+            <div class="full-screen-slide">
+                <img src="resources/judo_first.jpg" alt="Фотография с тренировки">
+            </div>
+            <div class="full-screen-slide">
+                <img src="resources/judo_second.jpg" alt="Фотография с тренировки">
+            </div>
+            <div class="full-screen-slide">
+                <img src="resources/judo_third.jpg" alt="Фотография с тренировки">
+            </div>
+            </div>
+        </div>
     </div>
+    
 
 
 <section class="price-section">
@@ -230,5 +258,6 @@
                 <p class="footer__text">© Школа Игоря Шкарина — 2023</p> 
             </div>
         </footer> 
+        <script src="gallery.js"></script>
 </body>
 </html>
