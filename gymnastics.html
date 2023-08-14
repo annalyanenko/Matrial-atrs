@@ -16,15 +16,15 @@
         <div class="header">
             <div class="container">
                 <div class="header__line">
-                    <a class="header__logo" href="/index.html">
+                    <a class="header__logo" href="index.html">
                         <img class="header__image" src="resources/logo.svg" alt="Логотип школы борьбы Игоря Шкарина">
                     </a>
                     <div class="nav">
-                        <a class="nav__item" href="#about-us">О НАС</a>
-                        <a class="nav__item" href="#fields">НАПРАВЛЕНИЯ</a>
-                        <a class="nav__item" href="#ourteam">КОМАНДА</a>
-                        <a class="nav__item" href="#">НОВОСТИ</a>
-                        <a class="nav__item" href="#contacts">КОНТАКТЫ</a>
+                        <a class="nav__item" href="index.html#about-us">О НАС</a>
+                        <a class="nav__item" href="index.html#fields">НАПРАВЛЕНИЯ</a>
+                        <a class="nav__item" href="instructors.html">КОМАНДА</a>
+                        <a class="nav__item" href="news.html">НОВОСТИ</a>
+                        <a class="nav__item" href="index.html#contacts">КОНТАКТЫ</a>
                     </div>
                     <div class="phone">
                         <div class="phone__holder">
@@ -46,21 +46,84 @@
         </div>
     </div>
     </header>
-
-    <div class="title">
-       Данный раздел в разработке!
-    </div>
+    <section class="section-information">
+        <div class="container">
+            <h1 class="gymnastics__title">Художественная гимнастика</h1>
+            <div class="gymnastics__holder">
+                <div class="gymnastics__image">
+                    <img class="gymnastics__img" src="resources/gymnastics-stretch.jpeg" alt="">
+                </div>
+                <div class="gymnastics__text">
+                    <p>Художественная гимнастика – один из самых зрелищных и изящных видов спорта, суть которого заключается в выполнении 
+                        гимнастических и танцевальных упражнений. Упражнения могут выполняться как с использованием предметов (обруч, мяч, 
+                        скакалка, лента, булавы), так и без него. Художественная гимнастика является олимпийским видом спорта. 
+                    </p>
+                </div>
+                <div class="gymnastics__text">
+                    <p>Художественная гимнастика у детей формирует гармоничное развитие тела - красивая фигура, правильная осанка, 
+                        подкаченные мышцы, способствует эстетическому воспитанию, воспитывает вкус, ребенок научится чувствовать музыку 
+                        и психологически раскрепостится.
+                    </p>
+                </div>
+                <div class="gymnastics__image">
+                    <img class="gymnastics__img" src="resources/gymnastics-hoop.jpeg" alt="">
+                </div>   
+            </div>  
+        </div>   
+    </section>
+    <section class="gallery-section">
+        <div class="gallery">
+            <button class="prev-btn" onclick="changeSlide(-1)">&lt;</button>
+            <img src="resources/gym-first.jpeg" alt="Фотография с тренировки" class="slide active">
+            <img src="resources/gym-second.jpeg" alt="Фотография с тренировки" class="slide">
+            <img src="resources/gym-third.jpeg" alt="Фотография с тренировки" class="slide">
+            <img src="resources/gym-fourth.jpeg" alt="Фотография с тренировки" class="slide">
+            <img src="resources/gym-sixth.jpeg" alt="Фотография с тренировки" class="slide">
+            <button class="next-btn" onclick="changeSlide(1)">&gt;</button>
+          </div>
+    </section>
+<section class="price-section">
+    <div class="container">
+        <h2 class="services__title">Стоимость тренировок</h2>
+        <div class="services__price-holder">
+            <div class="service">
+              <div class="service__title">Художественная гимнастика для детей</div>
+              <div class="service__price">7000₽/мес</div>
+              <div class="service__price-btn">
+                <button class="button-price">Записаться</button>
+              </div>
+            </div>
+          </div>
+    </div> 
+</section> 
+<section class="section-instructors">
+    <div class="container">
+        <h2 class="instructors__title">Тренеры</h2>
+            <div class="instructors__items">
+                <div class="instructor__item">
+                    <img class="instructor__image" src="resources/gymnastics-instructor.jpeg" alt="Тренер Игорь Шкарин">
+                    <div class="instructor__name">Воробьева Виктория <br> Евгеньевна</div>
+                </div>
+                <div class="instructors__items">
+                    <div class="instructor__item">
+                        <img class="instructor__image" src="resources/gymnastics-instructor.jpeg" alt="Тренер Игорь Шкарин">
+                        <div class="instructor__name">Воробьева Виктория <br> Евгеньевна</div>
+                    </div>
+                </div>
+            </div>     
+</section>
         <footer>
             <div class="container">
                     <nav class="footer__nav">
-                        <a class="footer__nav-link" href="#about-us">О НАС</a>
-                        <a class="footer__nav-link" href="#fields">НАПРАВЛЕНИЯ</a>
-                        <a class="footer__nav-link" href="#ourteam">КОМАНДА</a>
-                        <a class="footer__nav-link" href="#">НОВОСТИ</a>
-                        <a class="footer__nav-link" href="#contacts">КОНТАКТЫ</a>
+                        <a class="footer__nav-link" href="index.html#about-us">О НАС</a>
+                        <a class="footer__nav-link" href="index.html#fields">НАПРАВЛЕНИЯ</a>
+                        <a class="footer__nav-link" href="instructors.html">КОМАНДА</a>
+                        <a class="footer__nav-link" href="news.html">НОВОСТИ</a>
+                        <a class="footer__nav-link" href="index.html#contacts">КОНТАКТЫ</a>
                     </nav>
                 <p class="footer__text">© Школа Игоря Шкарина — 2023</p> 
             </div>
         </footer>
+    <script src="gallery.js"></script>
 </body>
 </html>
