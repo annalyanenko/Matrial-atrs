@@ -34,10 +34,9 @@ body {
 .nav__item {
     margin: 25px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
     font-size: 15px;
     text-decoration: none;
-    color:#000;
+    color:#FFF;
 }
 
 .nav__item:hover {
@@ -51,7 +50,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-size: 20px;
-    color:#000;
+    color:#fff;
 }
 
 .number_link:hover {
@@ -64,7 +63,7 @@ body {
     height: 38px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color:#000;;
+    color:#fff;
 }
 
 .phone__holder {
@@ -83,10 +82,11 @@ body {
     font-size: 14px;
     text-decoration: none;
     border-radius: 5px;
-    color:#000;
+    color:#FFF;
 }
 
 .button:hover {
+    color: #000;
     background-color:#FFF;
     border: 1px solid #000;
     transition: color 0.2s linear;
@@ -161,6 +161,210 @@ body {
     padding-bottom: 100px;
     font-size: 25px;
     text-align: center;
+}
+
+.section-information {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    background-color: #FFF;
+}
+
+.yoga__holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 70px;
+    row-gap: 80px;
+    margin-top: 35px;
+}
+
+.yoga__title {
+    font-family: Tinos;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.yoga__img {
+    width: 400px;
+    height: 400px;
+    border-radius: inherit;
+}
+
+.yoga__text {
+    text-indent: 45px;
+    width: 555px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.yoga__quote{
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    line-height: 37px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Tinos;
+}
+
+/* .gallery-section {
+    position: relative;
+    background-color: #FFF;
+    padding-bottom: 50px;
+}
+.gallery {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    border-radius: 50%;
+    border: none;
+    color: grey;
+    transition: transform 0.5s;
+  }
+
+  .prev-btn:hover,
+  .next-btn:hover {
+    transform: translateY(-5px);
+  }
+  
+  .prev-btn {
+    left: 275px;
+  }
+  
+  .next-btn {
+    right: 275px;
+  }
+
+ */
+
+.services__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.price-section {
+    padding-bottom: 70px;
+    background-color: #FFF;
+}
+
+ .services__price-holder {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 30px;
+    margin-top: 45px;
+ }
+
+.service {
+    display: flex;
+    gap: 115px;
+    width: 972px;
+    align-items:center;
+    justify-content: space-around;
+}
+
+
+ .service__title {
+    font-family: Tinos;
+    font-weight: bold;
+    font-size: 23px;
+    width: 410px;
+ }
+
+ .service__price {
+    font-family: Tinos;
+    font-size: 19px;
+ }
+
+ .button-price {
+    background-color: #FF7400;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #FF7400;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+ }
+
+ .button-price:hover {
+    color: #000;
+    border: 1px solid #000;
+    transition: color 0.3s linear;
+    background-color: #FFF;
+}
+
+.section-instructors {
+    padding-bottom: 50px;
+    background-color: #FFF;
+}
+
+.instructors__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.instructors__items {
+    display: flex;
+}
+
+.instructor__item {
+    width: 390px;
+    padding-top: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.instructor__image {
+    width: 60%;
+    border-radius: inherit;
+    transition: transform 0.3s ease;
+}
+
+.instructor__image:hover {
+    transform: scale(1.5);
+}
+
+.instructor__name {
+    font-family: Tinos;
+    font-size: 23px;
+    line-height: 31px;
+    padding: 16px 10px 17px 10px;
+    color: #000;
 }
 
 footer {
