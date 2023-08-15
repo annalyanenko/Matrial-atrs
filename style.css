@@ -625,7 +625,35 @@ footer {
         font-size: 20px;
         line-height: 90px;
     }
+    .section-contacts {
+        padding-top: 40px;
+    }
+    
+    .contacts__title {
+        margin-bottom: 35px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .contacts__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+        padding: 30px;
+    }
+
+    .contacts__phone {
+        padding-right: 130px;
+    }
+
+    .contacts__email {
+        padding-right: 103px;
+    }
+
 }
+    
+
 
 
 
