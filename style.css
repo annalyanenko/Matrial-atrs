@@ -16,17 +16,14 @@ body {
 }
 
 .header {
-    position: relative;
     width: 100%;
     background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 1)), 
     url(resources/mainBackground.jpg);
-    height: 100vh;
+    height: 115vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 } 
-
-
 
 .header__line {
     padding-top: 30px;
@@ -106,10 +103,7 @@ body {
 }
 
 .header__title {
-    position: absolute;
-    top: 300px;
-    left: 350px;
-    padding-bottom: 20px;
+    margin-top: 260px;
     font-family: Tinos;
     font-size: 50px;
     text-align: center;
@@ -117,17 +111,24 @@ body {
 }
 
 .header__quote {
+    position: relative;
     font-family: Open Sans;
     font-size: 18px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.header_appointment {
+    font-family: Open Sans;
+    font-size: 25px;
+    margin-top: 90px;
     color: #FFF;
 }
 
 .header__quote:after {
     position: absolute;
-    top: 130px;
-    left: -48px;
+    top: 10px;
+    left: 327px;
     content: '';
     height: 1px;
     width: 43px;
@@ -136,8 +137,8 @@ body {
 
 .header__quote:before {
     position: absolute;
-    top: 130px;
-    left: 688px;
+    top: 10px;
+    left: 1069px;
     content: '';
     height: 1px;
     width: 43px;
@@ -530,6 +531,39 @@ footer {
         width: 100%;
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .header__title {
+        margin-top: 265px;
+        font-size: 38px;
+    }
+
+    .header__quote {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .header__quote:before {
+        top: 8px;
+        left: 862px;
+    }
+
+    .header__quote:after {
+        top: 8px;
+        left: 235px;
+    }
+    .header_appointment {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .header__btn {
+        margin-top: 45px;
+    }
+
+    .header__button {
+        padding: 12px;
+        font-size: 12px;
     }
 
     .section-advantages {
