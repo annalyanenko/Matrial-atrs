@@ -682,8 +682,44 @@ footer {
         padding: 30px;
     }
 
-   
+    footer {
+        padding: 30px 0 26px 0;
+    }
 
+    .footer__nav {
+        gap: 20px;
+        padding-top: 20px;
+    }
+    
+    .footer__nav-link {
+        font-size: 10px;
+        line-height: 16px;
+        padding: 0;
+    }
+
+    .social-media__text {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .footer__text {
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+    
+    @media (max-width: 576px) {
+
+    .footer__social-media {
+        padding-top: 40px;
+    }
+
+    .social-media__link:before {
+        width: 40px;
+        height: 40px;
+    }
 }
     
 
