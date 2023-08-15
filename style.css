@@ -246,7 +246,7 @@ body {
 }
 
 .school__fields {
-    padding-top: 60px;
+    padding-top: 37px;
     background-color: #000;
 }
 
@@ -273,13 +273,13 @@ body {
 .field__text {
     font-family: Tinos;
     font-size: 23px;
-    padding: 16px 10px 17px 10px;
+    margin-top: 20px;
 }
 
 .field__subtext {
     font-family: Tinos;
     font-size: 19px;
-    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .field__btn {
@@ -301,7 +301,7 @@ body {
 }
 
 .field__button {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .fields_full-width-btn {
@@ -483,7 +483,29 @@ footer {
     color: #FFFFFF;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+
+    .container {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .fields__items {
+        width: 100%;
+    }
+
+    .field__text {
+        font-size: 20px;
+    }
+
+    .field__subtext {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1199px) {
+
     .container {
         width: 100%;
         padding-left: 30px;
@@ -518,17 +540,45 @@ footer {
         font-size: 35px;
         padding-bottom: 36px;
     }
-}
 
-@media (max-width: 992px) {
-    .about-us__title {
+    .field__title {
         font-size: 35px;
-        line-height: 40px;
+        padding-bottom: 36px;
+    }
+
+    .field__holder {
+        gap: 20px;
+    }
+
+    .field__text {
+        font-size: 20px;
+    }
+
+    .field__subtext {
+        font-size: 17px;
+    }
+
+    .fields_full-width-btn {
+        width: 100%;
+    }
+
+    .field__btn {
+        width: 100%;
+        padding: 12px 50px;
+        font-size: 14px;
     }
 }
 
+/* @media (max-width: 992px) {
+    .field__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+} */
 
-@media (max-width: 768px) {
+
+@media (max-width: 767px) {
+
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -539,8 +589,27 @@ footer {
         padding-bottom: 50px;
     }
 
+    .section__about-us {
+        padding-bottom: 0;
+    }
+
     .about-us__title {
         font-size: 30px;
+        line-height: 30px;
+    }
+
+    .field__holder {
+        flex-wrap: wrap;
+    }
+
+    .field__title {
+        font-size: 30px;
+        padding-bottom: 0;
+    }
+
+    .fields_full-width-btn {
+        height: 100px;
+        font-size: 22px;
         line-height: 30px;
     }
 }
