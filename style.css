@@ -617,11 +617,16 @@ footer {
         font-size: 20px;
     }
 
-    .fields_full-width-btn {
-        font-size: 14px;
-        line-height: 14px;
+    .full-width-btn {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        line-height: 90px;
     }
 }
+
 
 
 
