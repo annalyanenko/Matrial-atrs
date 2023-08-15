@@ -12,7 +12,7 @@
     <title>Школа борьбы Игоря Шкарина</title>
 </head>
 <body>
-   <!--  <header>
+   <header>
         <div class="header">
             <div class="container">
                 <div class="header__line">
@@ -42,8 +42,9 @@
                     <div class="btn">
                         <a class="button" href="#">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</a>
                     </div>
+                    <div class="js-burger-btn burger-btn"></div>
                 </div>
-            <div class="header__down">
+          <!--   <div class="header__down">
                 <div class="header__title">
                     Добро пожаловать в <br> ШКОЛУ ИГОРЯ ШКАРИНА
                     <div class="header__quote">
@@ -53,10 +54,47 @@
                         <a class="header__button" href="#">ПОСМОТРЕТЬ НАПРАВЛЕНИЯ</a>
                     </div>
                 </div>
+            </div> -->
+           
+        </div>
+    </div>
+    </header>
+
+    <div class="js-burger burger">
+        <div class="burger__content">
+            <img class="burger__logo" 
+            src="resources/logo.svg" 
+            alt="Логотип школы Игоря Шкарина">
+            <nav class="burger__nav">
+                <ul class="burger__nav_list">
+                    <li>
+                        <a class="burger__nav-link" href="#about-us">О НАС</a>
+                    </li>
+                    <li>
+                        <a class="burger__nav-link" href="#fields">НАПРАВЛЕНИЯ</a>
+                    </li>
+                    <li>
+                        <a class="burger__nav-link" href="instructors.html">КОМАНДА</a>
+                    </li>
+                    <li>
+                        <a class="burger__nav-link" href="news.html">НОВОСТИ</a>
+                    </li>
+                    <li> 
+                        <a class="burger__nav-link" href="#contacts">КОНТАКТЫ</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger__contacts js-burger__content">
+                <div class="burger__contacts_title">для связи:</div>
+                <a class="burger__contacts_phone" href="tel:+79358954535">+7 935  895-45-35</a>
+                <div class="burger__contacts_Tgm">
+                    <a class="burger__contacts_link" target="_blank" href="https://t.me/anna_lyanenko">Anna Lyanenko</a>
+                </div>
             </div>
         </div>
     </div>
-    </header> -->
+
+    
     <main>
         <div class="container">
         <section id="about-us" class="section-advantages">
@@ -236,6 +274,7 @@
             </div>
         </footer> 
         <script src="popup.js"></script>
+        <script src="burger.js"></script>
     </main>
 </body>
 </html>
