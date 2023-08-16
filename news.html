@@ -20,11 +20,11 @@
                         <img class="header__image" src="resources/logo.svg" alt="Логотип школы борьбы Игоря Шкарина">
                     </a>
                     <div class="nav">
-                        <a class="nav__item" href="#about-us">О НАС</a>
-                        <a class="nav__item" href="#fields">НАПРАВЛЕНИЯ</a>
-                        <a class="nav__item" href="#ourteam">КОМАНДА</a>
-                        <a class="nav__item" href="#">НОВОСТИ</a>
-                        <a class="nav__item" href="#contacts">КОНТАКТЫ</a>
+                        <a class="nav__item" href="index.html#about-us">О НАС</a>
+                        <a class="nav__item" href="index.html#fields">НАПРАВЛЕНИЯ</a>
+                        <a class="nav__item" href="instructors.html">КОМАНДА</a>
+                        <a class="nav__item" href="news.html">НОВОСТИ</a>
+                        <a class="nav__item" href="index.html#contacts">КОНТАКТЫ</a>
                     </div>
                     <div class="phone">
                         <div class="phone__holder">
@@ -47,20 +47,55 @@
     </div>
     </header>
 
-    <div class="title">
-       Данный раздел в разработке!
+<div class="block-news">
+    <h1 class="news__title">НОВОСТИ ШКОЛЫ</h1>
+</div>
+
+<div class="content-container">
+    <div class="news__june">
+        <p class="date__june">15.06.2023</p>
+        <h2 class="june__title">
+            Первая новость о лагере дневного прибывания 🥳
+        </h2>
+        <p class="june__text">
+            Давайте поговорим о лагере дневного прибывания, где дети проводят незабываемое время весело и интересно! <br> <br>
+            Тут каждый день - это настоящее приключение. Детям предлагаются различные занятия и игры, которые развивают их спортивный потенциал, 
+            способности и социальные навыки 🤼‍♂️ <br> <br>Самое главное - здесь дети получают незабываемый опыт, который они будут помнить всю 
+            оставшуюся жизнь. И конечно, мы не можем не упомянуть профессиональных и опытных тренерах, которые не только заботятся о детях, 
+            но и развивают их физические и моральные качества.
+        </p>
     </div>
+</div>
+
+<section class="gallery-section">
+    <div class="gallery">
+        <button class="prev-btn" onclick="changeSlide(-1)">&lt;</button>
+        <div class="gallery__image">
+            <img src="news_photos/children_caffe.jpeg" alt="Дети сидят за столом на веранде в кафе" class="slide active">
+            <img src="news_photos/boy-play-tennis.jpeg" alt="Мальчик играет в теннис" class="slide">
+            <img src="news_photos/children-play.jpeg" alt="Дети играют с тренером на спортивной площадке" class="slide">
+            <img src="news_photos/children-free-time.jpeg" alt="Дети обедают в кафе вместе с тренером" class="slide">
+            <img src="news_photos/children-play-volleyball.jpeg" alt="Дети играют в волейбол" class="slide">
+            <img src="news_photos/boys-play-tennis.jpeg" alt="Мальчики играют в теннис" class="slide">
+        </div>
+        
+        <button class="next-btn" onclick="changeSlide(1)">&gt;</button>
+      </div>
+</section>
+
         <footer>
             <div class="container">
                     <nav class="footer__nav">
-                        <a class="footer__nav-link" href="#about-us">О НАС</a>
-                        <a class="footer__nav-link" href="#fields">НАПРАВЛЕНИЯ</a>
-                        <a class="footer__nav-link" href="#ourteam">КОМАНДА</a>
-                        <a class="footer__nav-link" href="#">НОВОСТИ</a>
-                        <a class="footer__nav-link" href="#contacts">КОНТАКТЫ</a>
+                        <a class="footer__nav-link" href="index.html#about-us">О НАС</a>
+                        <a class="footer__nav-link" href="index.html#fields">НАПРАВЛЕНИЯ</a>
+                        <a class="footer__nav-link" href="instructors.html">КОМАНДА</a>
+                        <a class="footer__nav-link" href="news.html">НОВОСТИ</a>
+                        <a class="footer__nav-link" href="index.html#contacts">КОНТАКТЫ</a>
                     </nav>
                 <p class="footer__text">© Школа Игоря Шкарина — 2023</p> 
             </div>
         </footer>
+
+        <script src="gallery.js"></script>
 </body>
 </html>
