@@ -384,6 +384,10 @@ body {
         display: none;
     }
 
+    .header {
+        padding: 10px;
+    }
+
     .header__image {
         width: 80px;
         height: 50px;
@@ -514,16 +518,25 @@ body {
         padding: 8px 25px;
         font-size: 16px;
     }
+
+    .price-section {
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 576px) {
 
+    .header__image {
+        width: 30px;
+        height: 30px;
+}
+
     .nav {
-        gap: 10px;
+        gap: 5px;
     }
 
     .nav__item {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .judo__title {
@@ -561,7 +574,8 @@ body {
     }
 
     .button-price {
-        padding: 8px 25px;
+        font-size: 10px;
+        padding: 5px 5px;
     }
 
     .instructors__title {
@@ -599,9 +613,7 @@ body {
 
 }
 
-.header {
-    padding: 10px;
-}
+@
 
 
 
