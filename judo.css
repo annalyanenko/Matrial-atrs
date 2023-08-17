@@ -356,9 +356,6 @@ footer {
         padding: 12px 15px;
         font-size: 13px; 
     }
-}
-
-@media (max-width: 1299px) {
     .nav {
         gap: 30px;
     }
@@ -378,6 +375,11 @@ footer {
     .button {
         padding: 9px 12px;
         font-size: 11px;
+    }
+
+    .judo__title {
+        font-size: 35px;
+        line-height: 60px;
     }
 }
 
