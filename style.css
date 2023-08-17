@@ -16,13 +16,14 @@ body {
 }
 
 .header {
+    position: relative;
     width: 100%;
     background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 1)), 
     url(resources/mainBackground.jpg);
     height: 115vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: 50%;
 } 
 
 .header__line {
@@ -37,8 +38,12 @@ body {
     height: 80px;
 }
 
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
 .nav__item {
-    margin: 25px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -98,12 +103,10 @@ body {
     transition: color 0.2s linear;
 }
 
-.header__down {
-    position: relative;
-}
-
 .header__title {
-    margin-top: 260px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
     font-family: Tinos;
     font-size: 50px;
     text-align: center;
@@ -111,7 +114,6 @@ body {
 }
 
 .header__quote {
-    position: relative;
     font-family: Open Sans;
     font-size: 18px;
     margin-top: 20px;
@@ -125,10 +127,10 @@ body {
     color: #FFF;
 }
 
-.header__quote:after {
+/* .header__quote:after {
     position: absolute;
-    top: 10px;
-    left: 327px;
+    top: 130px;
+    left: 697px;
     content: '';
     height: 1px;
     width: 43px;
@@ -137,13 +139,14 @@ body {
 
 .header__quote:before {
     position: absolute;
-    top: 10px;
-    left: 1069px;
+    top: 130px;
+    right: 697px;
+    
     content: '';
     height: 1px;
     width: 43px;
     background-color: #FFF;
-}
+}  */
 
 .header__btn {
     margin-top: 40px;
@@ -164,6 +167,40 @@ body {
     background-color:#FFF;
     border: 1px solid #000;
     transition: color 0.3s linear;
+}
+
+
+@media (max-width: 1426px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1208px) {
+    .header__image {
+        width: 80px;
+        height: 70px;
+    }
+
+    .nav {
+        gap: 30px;
+    }
+
+    .number__link {
+        font-size: 17px;
+    }
+
+    .phone__text {
+        font-size: 13px;
+    }
+
+    .button {
+        padding: 13px 17px;
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -497,8 +534,8 @@ footer {
 
     .container {
         width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .fields__items {
@@ -534,7 +571,6 @@ footer {
     }
 
     .header__title {
-        margin-top: 265px;
         font-size: 38px;
     }
 
@@ -543,15 +579,6 @@ footer {
         margin-top: 15px;
     }
 
-    .header__quote:before {
-        top: 8px;
-        left: 862px;
-    }
-
-    .header__quote:after {
-        top: 8px;
-        left: 235px;
-    }
     .header_appointment {
         font-size: 20px;
         margin-top: 50px;
@@ -724,6 +751,34 @@ footer {
         row-gap: 50px;
         padding: 30px;
     }
+
+    @media (max-width: 767px) {
+
+   .header__title {
+    left: 17%;
+   }
+
+   .header__title {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+   .header__quote {
+    font-size: 13px;
+    margin-top: 12px;
+   }
+
+   .header_appointment {
+    font-size: 15px;
+    margin-top: 27px;
+}
+
+.header__button {
+    padding: 9px;
+    font-size: 10px;
+}
+ 
+}
 
     footer {
         padding: 30px 0 26px 0;
