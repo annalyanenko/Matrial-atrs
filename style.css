@@ -23,7 +23,7 @@ body {
     height: 115vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
+    background-position: top;
 } 
 
 .header__line {
@@ -543,12 +543,6 @@ footer {
 
 @media (max-width: 1199px) {
 
-    .container {
-        width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
     .header__title {
         font-size: 38px;
     }
@@ -663,11 +657,6 @@ footer {
 }
 
 @media (max-width: 767px) {
-
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .cards__main-title {
         font-size: 30px;
