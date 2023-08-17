@@ -363,6 +363,42 @@ body {
         padding-right: 30px;
     }
 
+    .header {
+        width: 1178px;
+    }
+
+    .phone,
+    .btn {
+        display: none;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .header__image {
+        width: 80px;
+        height: 50px;
+    }
+
+    .number_link {
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    .header__btn {
+        margin-top: 45px;
+    }
+
+    .header__button {
+        padding: 12px;
+        font-size: 12px;
+    }
+
     .news__title {
         width: 1140px;
     }
@@ -372,28 +408,102 @@ body {
         height: 100%
 }
 
-.next-btn {
-    right: 32px;
-}
-
-.prev-btn {
-    left: 32px;
-}
-
-.sokolov_img {
-    width: 100%;
-}
-
-}
-
-@media (max-width: 992px) {
-    .news {
-        width: 1099px;
+    .next-btn {
+        right: 32px;
     }
-}
 
-@media (max-width: 390px) {
-    .news {
-        width: 1088px;
+    .prev-btn {
+        left: 32px;
     }
-}
+
+    .sokolov_img {
+        width: 100%;
+    }
+
+    .footer {
+        width: 1178px;
+    }
+    }
+
+    @media (max-width: 992px) {
+
+        .news {
+            width: 1099px;
+        }
+
+        .header {
+            width: 1178px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .footer {
+            padding: 30px 0 26px 0;
+        }
+        
+        .footer__nav {
+            gap: 20px;
+            padding-top: 20px;
+        }
+        
+        .footer__nav-link {
+            font-size: 10px;
+            line-height: 16px;
+            padding: 0;
+        }
+        
+        .social-media__text {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        
+        .footer__text {
+            margin-top: 30px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    @media (max-width: 390px) {
+        
+        .news {
+            width: 1088px;
+        }
+    }
+
+    
+
+    @media (max-width: 576px) {
+
+        .header__image {
+            width: 30px;
+            height: 30px;
+    }
+    
+        .nav {
+            gap: 5px;
+        }
+    
+        .nav__item {
+            font-size: 10px;
+        }
+
+        .footer__nav {
+            gap: 15px;
+        }
+    
+        .footer__nav-link {
+            font-size: 10px;
+        }
+    
+        .footer__social-media {
+            padding-top: 40px;
+        }
+    
+        .social-media__link:before {
+            width: 40px;
+            height: 40px;
+        }
+    
+    }
