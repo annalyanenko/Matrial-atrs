@@ -30,8 +30,12 @@ body {
     height: 80px;
 }
 
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
 .nav__item {
-    margin: 25px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -687,7 +691,17 @@ body {
         width: 40px;
         height: 40px;
     }
+}
 
+
+@media (max-width: 380px) {
+.yoga__quote {
+    font-size: 14px;
+}
+
+.slide {
+    object-fit: contain;
+}
 }
 
 

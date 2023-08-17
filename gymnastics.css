@@ -30,8 +30,11 @@ body {
     height: 80px;
 }
 
+.nav {
+    display: flex;
+}
+
 .nav__item {
-    margin: 25px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -595,7 +598,7 @@ body {
     }
 
     .nav__item {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .gymnastics__title {
