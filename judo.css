@@ -540,8 +540,12 @@ body {
     }
 
     .judo__title {
-        font-size: 35px;
+        font-size: 28px;
         line-height: 50px;
+    }
+
+    .judo__text {
+        font-size: 14px;
     }
 
     .prev-btn {
@@ -554,17 +558,17 @@ body {
 
     .prev-btn,
     .next-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 29px;
-    }
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+}
 
     .service {
-        gap: 70px;
+        gap: 60px;
     }
 
     .services__title {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .service__title,
