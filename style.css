@@ -752,32 +752,10 @@ footer {
         padding: 30px;
     }
 
-    @media (max-width: 767px) {
+    .header__title {
+        left: 0;
+    }
 
-   .header__title {
-    left: 17%;
-   }
-
-   .header__title {
-    margin-top: 0;
-    font-size: 25px;
-}
-
-   .header__quote {
-    font-size: 13px;
-    margin-top: 12px;
-   }
-
-   .header_appointment {
-    font-size: 15px;
-    margin-top: 27px;
-}
-
-.header__button {
-    padding: 9px;
-    font-size: 10px;
-}
- 
 }
 
     footer {
