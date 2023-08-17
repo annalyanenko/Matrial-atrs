@@ -378,6 +378,7 @@ footer {
 }
 
 @media (max-width: 1199px) {
+    
     .phone,
     .btn {
         display: none;
@@ -401,6 +402,10 @@ footer {
         row-gap: 30px;
     }
 
+    .judo__img {
+        width: 100%;
+    }
+
     
     .header__btn {
         margin-top: 45px;
@@ -409,6 +414,10 @@ footer {
     .header__button {
         padding: 12px;
         font-size: 12px;
+    }
+    
+    .gallery {
+        width: 100%;
     }
 
     .prev-btn {
@@ -439,9 +448,6 @@ footer {
 }
 
 @media (max-width: 700px) {
-    .gallery {
-        width: 555px;
-    }
 
     .prev-btn {
         left: 47px;
@@ -470,7 +476,7 @@ footer {
     }
 
     .footer__nav {
-        gap: 20px;
+        gap: 2px;
     }
 
     .footer__nav-link {
@@ -505,7 +511,7 @@ footer {
     }
 
     .service {
-        gap: 100px;
+        gap: 70px;
     }
 
     .service__title,
@@ -548,6 +554,8 @@ footer {
         font-size: 13px;
 }
 }
+
+
 
 
 
