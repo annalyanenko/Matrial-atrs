@@ -127,27 +127,6 @@ body {
     color: #FFF;
 }
 
-/* .header__quote:after {
-    position: absolute;
-    top: 130px;
-    left: 697px;
-    content: '';
-    height: 1px;
-    width: 43px;
-    background-color: #FFF;
-}
-
-.header__quote:before {
-    position: absolute;
-    top: 130px;
-    right: 697px;
-    
-    content: '';
-    height: 1px;
-    width: 43px;
-    background-color: #FFF;
-}  */
-
 .header__btn {
     margin-top: 40px;
 }
@@ -756,8 +735,6 @@ footer {
         left: 0;
     }
 
-}
-
     footer {
         padding: 30px 0 26px 0;
     }
@@ -784,7 +761,9 @@ footer {
         font-size: 16px;
         line-height: 18px;
     }
+
 }
+
     
     @media (max-width: 576px) {
 
