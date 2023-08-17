@@ -470,6 +470,78 @@ footer {
     }
 }
 
+@media (max-width: 576px) {
+
+    .nav__item {
+        font-size: 11px;
+    }
+
+    .judo__title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .prev-btn {
+        left: 16px;
+    }
+
+    .next-btn {
+        right: 16px;
+    }
+
+    .prev-btn,
+    .next-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 29px;
+    }
+
+    .service {
+        width: 100%;
+        gap: 100px;
+    }
+
+    .service__title,
+    .service__price,
+    .button-price {
+        font-size: 16px;
+    }
+
+    .button-price {
+        padding: 8px 25px;
+    }
+
+    .instructors__title {
+        font-size: 35px;
+    }
+
+    .instructors__items {
+        flex-wrap: wrap;
+    }
+
+    .instructor__item {
+        width: 115%;
+    }
+
+    .instructor__image {
+        width: 50%;
+    }
+
+    .footer__social-media {
+        padding-top: 40px;
+    }
+
+    .social-media__link:before {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer__nav-link {
+        padding: 8px 8px;
+        font-size: 13px;
+}
+}
+
 
 
 
