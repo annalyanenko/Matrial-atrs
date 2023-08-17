@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -365,6 +367,111 @@ footer {
     opacity: 0.5;
     color: #FFFFFF;
 }
+
+@media (max-width: 1400px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .phone,
+    .btn {
+        display: none;
+    }
+
+    .header__image {
+        width: 80px;
+        height: 50px;
+    }
+
+    .number_link {
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    .judo__holder {
+        row-gap: 30px;
+    }
+
+    
+    .header__btn {
+        margin-top: 45px;
+    }
+
+    .header__button {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .prev-btn {
+        left: 211px;
+    }
+
+    .next-btn {
+        right: 211px;
+    }
+}
+
+@media (max-width: 976px) {
+    .prev-btn {
+        left: 95px;
+    }
+
+    .next-btn {
+        right: 95px;
+    }
+}
+
+@media (max-width: 700px) {
+    .gallery {
+        width: 555px;
+    }
+
+    .prev-btn {
+        left: 47px;
+    }
+
+    .next-btn {
+        right: 47px;
+    }
+    
+
+    .services__title {
+        font-size: 35px;
+    }
+
+    .service {
+        width: 650px;
+    }
+
+    .service__title {
+        font-size: 20px;
+    }
+
+    .service__price {
+        font-size: 19px;
+    }
+
+    .button-price {
+        padding: 8px 25px;
+        font-size: 16px;
+    }
+
+    .footer__nav {
+        gap: 20px;
+    }
+}
+
+
+
 
 
 
