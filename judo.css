@@ -406,6 +406,10 @@ body {
         width: 100%;
     }
 
+    .judo__text {
+        width: 100%;
+    }
+
     
     .header__btn {
         margin-top: 45px;
@@ -593,6 +597,10 @@ body {
         height: 40px;
     }
 
+}
+
+.header {
+    padding: 10px;
 }
 
 
