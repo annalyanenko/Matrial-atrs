@@ -349,8 +349,7 @@ body {
     color: #000;
 }
 
-footer {
-    padding: 60px 0 30px 0;
+.footer {
     background-color: rgba(18, 18, 18, 0.8);
 }
 
@@ -364,7 +363,6 @@ footer {
 
 .footer__nav-link {
     display: block;
-    padding: 10px 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 25px;
@@ -426,6 +424,256 @@ footer {
     line-height: 27px;
     opacity: 0.5;
     color: #FFFFFF;
+}
+
+@media (max-width: 1400px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+    
+    .phone,
+    .btn {
+        display: none;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .header__image {
+        width: 80px;
+        height: 50px;
+    }
+
+    .number_link {
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    .gymnastics__holder {
+        row-gap: 30px;
+    }
+
+    .gymnastics__img {
+        width: 100%;
+    }
+
+    .gymnastics__text {
+        width: 100%;
+    }
+
+    
+    .header__btn {
+        margin-top: 45px;
+    }
+
+    .header__button {
+        padding: 12px;
+        font-size: 12px;
+    }
+    
+    .gallery {
+        width: 100%;
+    }
+
+    .prev-btn {
+        left: 211px;
+    }
+
+    .next-btn {
+        right: 211px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 976px) {
+    .prev-btn {
+        left: 95px;
+    }
+
+    .next-btn {
+        right: 95px;
+    }
+}
+
+@media (min-width: 767px) {
+
+    .header__image {
+        width: 60px;
+        height: 40px;
+}
+
+.footer {
+    padding: 30px 0 26px 0;
+}
+
+.footer__nav {
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.footer__nav-link {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 0;
+}
+
+.social-media__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer__text {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+}
+
+@media (max-width: 700px) {
+
+    .prev-btn {
+        left: 47px;
+    }
+
+    .next-btn {
+        right: 47px;
+    }
+    
+
+    .services__title {
+        font-size: 35px;
+    }
+
+    .service__title {
+        font-size: 20px;
+    }
+
+    .service__price {
+        font-size: 19px;
+    }
+
+    .button-price {
+        padding: 8px 25px;
+        font-size: 16px;
+    }
+
+    .price-section {
+        padding-top: 0px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .header__image {
+        width: 30px;
+        height: 30px;
+}
+
+    .nav {
+        gap: 5px;
+    }
+
+    .nav__item {
+        font-size: 10px;
+    }
+
+    .gymnastics__title {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .gymnastics__text {
+        font-size: 14px;
+    }
+
+    .prev-btn {
+        left: 16px;
+    }
+
+    .next-btn {
+        right: 16px;
+    }
+
+    .prev-btn,
+    .next-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+}
+
+    .service {
+        gap: 60px;
+    }
+
+    .services__title {
+        font-size: 28px;
+    }
+
+    .service__title,
+    .service__price,
+    .button-price {
+        font-size: 14px;
+    }
+
+    .button-price {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+
+    .instructors__title {
+        font-size: 35px;
+    }
+
+    .instructors__items {
+        flex-wrap: wrap;
+    }
+
+    .instructor__item {
+        width: 115%;
+    }
+
+    .instructor__image {
+        width: 50%;
+    }
+
+    .footer__nav {
+        gap: 15px;
+    }
+
+    .footer__nav-link {
+        font-size: 10px;
+    }
+
+    .footer__social-media {
+        padding-top: 40px;
+    }
+
+    .social-media__link:before {
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 
