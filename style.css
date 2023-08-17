@@ -733,7 +733,38 @@ footer {
 
     .header__title {
         left: 0;
+        font-size: 18px;
     }
+    .header__quote {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .header__btn {
+        margin-top: 35px;
+    }
+
+    .cards__main-title {
+        padding-top: 30px;
+    }
+
+    .field__title {
+        font-size: 23px;
+    }
+
+    .field__text {
+        font-size: 25px;
+    }
+
+    .field__subtext {
+        font-size: 20px;
+    }
+
+    .field__btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
 
     footer {
         padding: 30px 0 26px 0;
@@ -766,6 +797,40 @@ footer {
 
     
     @media (max-width: 576px) {
+
+    .header__title {
+        font-size: 18px;
+    }
+
+    .header__quote {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .header__btn {
+        margin-top: 35px;
+    }
+
+    .cards__main-title {
+        padding-top: 30px;
+    }
+
+    .field__title {
+        font-size: 23px;
+    }
+
+    .field__text {
+        font-size: 25px;
+    }
+
+    .field__subtext {
+        font-size: 20px;
+    }
+
+    .field__btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
 
     .footer__social-media {
         padding-top: 40px;
