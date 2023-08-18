@@ -14,7 +14,6 @@
 <body>
     <header>
         <div class="header">
-            <div class="container"></div>
                 <div class="header__line">
                     <a class="header__logo" href="/index.html">
                         <img class="header__image" src="resources/logo.svg" alt="Логотип школы борьбы Игоря Шкарина">
@@ -39,13 +38,34 @@
                             Свяжитесь с нами <br> для записи на тренировку
                         </div>
                     </div>
-                    <div class="btn">
-                        <a class="button" href="#">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</a>
+                    <div class="js-btn">
+                        <button class="button">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</button>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
+    <div class="js-popup popup">
+        <div class="js-popup__content popup__content">
+            <button class="js-popup__close-btn popup__close-btn"></button>
+            <p class="popup__title">Записаться на тренировку</p>
+            <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+            <form class="order__form">
+                <input 
+                class="input order__input"
+                type="name"
+                placeholder="Имя"/>
+                <input 
+                class="input order__input"
+                type="phone"
+                placeholder="Номер телефона"/>
+                <input 
+                class="input order__input"
+                type="text"
+                placeholder="Вопрос"/>
+            </form>
+            <button class="full-width-btn-small">Отправить</button>
+        </div>
+    </div>  
     <section class="section-information">
         <div class="container">
             <h1 class="judo__title">Спортивная борьба для детей</h1>
@@ -94,36 +114,151 @@
     <div class="container">
         <h2 class="services__title">Стоимость тренировок</h2>
         <div class="services__price-holder">
+
             <div class="service">
               <div class="service__title">Спортивная борьба для детей Дзюдо</div>
               <div class="service__price">6000₽/мес</div>
               <div class="service__price-btn">
-                <button class="button-price">Записаться</button>
+                <button class="js-button-price_one button-price_one">Записаться</button>
               </div>
             </div>
+            <div class="js-popup_one popup_one">
+                <div class="js-popup__content_one popup__content_one">
+                    <button class="js-popup__close-btn_one popup__close-btn_one"></button>
+                    <p class="popup__title">Записаться на тренировку</p>
+                    <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+                    <form class="order__form">
+                        <input 
+                        class="input order__input"
+                        type="name"
+                        placeholder="Имя"/>
+                        <input 
+                        class="input order__input"
+                        type="phone"
+                        placeholder="Номер телефона"/>
+                        <input 
+                        class="input order__input"
+                        type="text"
+                        placeholder="Вопрос"/>
+                    </form>
+                    <button class="full-width-btn-small">Отправить</button>
+                </div>
+            </div>  
+
             <div class="service">
                 <div class="service__title">Дзюдо для детей из многодетных семей</div>
                 <div class="service__price">5000₽/мес</div>
-                <button class="button-price">Записаться</button>
+                <button class="js-button-price_two button-price_two">Записаться</button>
             </div>
+           <div class="js-popup_two popup_two">
+                <div class="js-popup__content_two popup__content_two">
+                    <button class="js-popup__close-btn_two popup__close-btn_two"></button>
+                    <p class="popup__title">Записаться на тренировку</p>
+                    <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+                    <form class="order__form">
+                        <input 
+                        class="input order__input"
+                        type="name"
+                        placeholder="Имя"/>
+                        <input 
+                        class="input order__input"
+                        type="phone"
+                        placeholder="Номер телефона"/>
+                        <input 
+                        class="input order__input"
+                        type="text"
+                        placeholder="Вопрос"/>
+                    </form>
+                    <button class="full-width-btn-small">Отправить</button>
+                </div>
+            </div> 
+
             <div class="service">
                 <div class="service__title">Спортивная борьба для детей Самбо</div>
                 <div class="service__price">6000₽/мес</div>
-                <button class="button-price">Записаться</button>
+                <button class="js-button-price_three button-price_three">Записаться</button>
             </div>
+            <div class="js-popup_three popup_three">
+                <div class="js-popup__content_three popup__content_three">
+                    <button class="js-popup__close-btn_three popup__close-btn_three"></button>
+                    <p class="popup__title">Записаться на тренировку</p>
+                    <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+                    <form class="order__form">
+                        <input 
+                        class="input order__input"
+                        type="name"
+                        placeholder="Имя"/>
+                        <input 
+                        class="input order__input"
+                        type="phone"
+                        placeholder="Номер телефона"/>
+                        <input 
+                        class="input order__input"
+                        type="text"
+                        placeholder="Вопрос"/>
+                    </form>
+                    <button class="full-width-btn-small">Отправить</button>
+                </div>
+            </div> 
+
             <div class="service">
                 <div class="service__title">Самбо для детей из многодетных семей</div>
                 <div class="service__price">5000₽/мес</div>
-                <button class="button-price">Записаться</button>
+                <button class="js-button-price_four button-price_four">Записаться</button>
             </div>
+            <div class="js-popup_four popup_four">
+                <div class="js-popup__content_four popup__content_four">
+                    <button class="js-popup__close-btn_four popup__close-btn_four"></button>
+                    <p class="popup__title">Записаться на тренировку</p>
+                    <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+                    <form class="order__form">
+                        <input 
+                        class="input order__input"
+                        type="name"
+                        placeholder="Имя"/>
+                        <input 
+                        class="input order__input"
+                        type="phone"
+                        placeholder="Номер телефона"/>
+                        <input 
+                        class="input order__input"
+                        type="text"
+                        placeholder="Вопрос"/>
+                    </form>
+                    <button class="full-width-btn-small">Отправить</button>
+                </div>
+            </div> 
+
             <div class="service">
                 <div class="service__title">Спортивная борьба для детей<br> Индивидуальная тренировка</div>
                 <div class="service__price">1500₽/мес</div>
-                <button class="button-price">Записаться</button>
+                <button class="js-button-price_five button-price_five">Записаться</button>
             </div>
+            <div class="js-popup_five popup_five">
+                <div class="js-popup__content_five popup__content_five">
+                    <button class="js-popup__close-btn_five popup__close-btn_five"></button>
+                    <p class="popup__title">Записаться на тренировку</p>
+                    <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+                    <form class="order__form">
+                        <input 
+                        class="input order__input"
+                        type="name"
+                        placeholder="Имя"/>
+                        <input 
+                        class="input order__input"
+                        type="phone"
+                        placeholder="Номер телефона"/>
+                        <input 
+                        class="input order__input"
+                        type="text"
+                        placeholder="Вопрос"/>
+                    </form>
+                    <button class="full-width-btn-small">Отправить</button>
+                </div>
+            </div> 
           </div>
     </div> 
-</section> 
+</section>
 <section class="section-instructors">
     <div class="container">
         <h2 class="instructors__title">Тренеры</h2>
@@ -168,6 +303,12 @@
 </footer> 
 
 <script src="gallery.js"></script>
+<script src="popup.js"></script>
+<script src="popup-one.js"></script>
+<script src="popup-two.js"></script>
+<script src="popup-three.js"></script>
+<script src="popup-four.js"></script>
+<script src="popup-five.js"></script>
 
 </body>
 </html>
