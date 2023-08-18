@@ -31,8 +31,12 @@ body {
     height: 80px;
 }
 
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
 .nav__item {
-    margin: 25px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -363,8 +367,8 @@ body {
         padding-right: 30px;
     }
 
-    .header {
-        width: 1178px;
+    .photos-container {
+        width: 100%;
     }
 
     .phone,
@@ -399,9 +403,6 @@ body {
         font-size: 12px;
     }
 
-    .news__title {
-        width: 1140px;
-    }
 
     .photos__item img {
         width: 100%;
@@ -419,21 +420,9 @@ body {
     .sokolov_img {
         width: 100%;
     }
-
-    .footer {
-        width: 1178px;
-    }
     }
 
     @media (max-width: 992px) {
-
-        .news {
-            width: 1099px;
-        }
-
-        .header {
-            width: 1178px;
-        }
 
         .next-btn {
             right: -217px;
@@ -447,6 +436,19 @@ body {
     }
 
     @media (max-width: 768px) {
+
+        .content-container {
+            padding-top: 0;
+        }
+
+        .news__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .header__line {
+            justify-content: space-around;
+        }
 
         .next-btn {
             right: -356px;
@@ -493,7 +495,7 @@ body {
         }
     
         .nav__item {
-            font-size: 10px;
+            font-size: 9px;
         }
 
         .next-btn {
@@ -520,11 +522,27 @@ body {
     }
 
     @media (max-width: 390px) {
-        
-        .news {
-            width: 1088px;
+
+        .news__title {
+            font-size: 25px;
+            line-height: 33px;
         }
 
+        .date__news {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .news__text {
+            font-size: 17px;
+            line-height: 27px;
+        }
+
+        .news__subtitle {
+            font-size: 22px;
+            line-height: 24px;
+        }
+        
         .next-btn {
             right: -734px;
         }
