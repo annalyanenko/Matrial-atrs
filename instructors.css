@@ -30,8 +30,12 @@ body {
     height: 80px;
 }
 
+.nav  {
+    display: flex;
+    gap: 10px;
+    }
+
 .nav__item {
-    margin: 25px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -295,8 +299,7 @@ body {
     gap: 40px;
 }
 
-footer {
-    padding: 60px 0 30px 0;
+.footer {
     background-color: rgba(18, 18, 18, 0.8);
 }
 
@@ -310,7 +313,6 @@ footer {
 
 .footer__nav-link {
     display: block;
-    padding: 10px 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 25px;
@@ -323,6 +325,49 @@ footer {
     opacity: 0.5;
 }
 
+.footer__social-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.social-media__link {
+    font-family: Tinos;
+    font-size: 21px;
+    line-height: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.social-media__text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+
+
+.social-media__link:before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.social-media__link:before {
+    width: 50px;
+    height: 50px;
+    background-image: url('resources/vk_icon.png');
+}
+
+
 .footer__text {
     margin-top: 35px;
     text-align: center;
@@ -332,4 +377,152 @@ footer {
     color: #FFFFFF;
 }
 
+@media (max-width: 1400px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+    
+    .phone,
+    .btn {
+        display: none;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .header__image {
+        width: 80px;
+        height: 50px;
+    }
+
+    .number_link {
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    .header__btn {
+        margin-top: 45px;
+    }
+
+    .header__button {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 992px) {
+
+    .instructors__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .instructor__item {
+        width: 100%;
+    }
+
+    .instrucrors__items-row {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .instrucrors__items-gym-yog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .instrucrors__items-pilates {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    }
+    
+
+@media (min-width: 767px) {
+
+    .header__image {
+        width: 60px;
+        height: 40px;
+}
+
+.footer {
+    padding: 30px 0 26px 0;
+}
+
+.footer__nav {
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.footer__nav-link {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 0;
+}
+
+.social-media__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer__text {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+}
+
+@media (max-width: 576px) {
+
+    .header__image {
+        width: 30px;
+        height: 30px;
+}
+
+    .nav {
+        gap: 5px;
+    }
+
+    .nav__item {
+        font-size: 9px;
+    }
+
+    .footer__nav {
+        gap: 15px;
+    }
+
+    .footer__nav-link {
+        font-size: 10px;
+    }
+
+    .footer__social-media {
+        padding-top: 40px;
+    }
+
+    .social-media__link:before {
+        width: 40px;
+        height: 40px;
+    }
+}
 
