@@ -498,6 +498,10 @@ body {
             font-size: 9px;
         }
 
+        .news__text {
+            padding-bottom: 30px;
+        }
+
         .next-btn {
             right: -553px;
         }
