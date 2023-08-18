@@ -1,5 +1,4 @@
 @import "popup.css";
-@import "inputs.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -39,7 +38,7 @@ body {
 
 .nav {
     display: flex;
-    gap:10px;
+    gap: 40px;
 }
 
 .nav__item:hover {
@@ -251,7 +250,12 @@ body {
     font-size: 19px;
  }
 
- .button-price {
+ .button-price_one,
+ .button-price_two,
+ .button-price_three,
+ .button-price_four,
+ .button-price_five,
+ .button-price_six {
     background-color: #FF7400;
     text-decoration: none;
     padding: 10px 30px;
@@ -264,7 +268,13 @@ body {
     cursor: pointer;
  }
 
- .button-price:hover {
+
+ .button-price_one:hover,
+ .button-price_two:hover,
+ .button-price_three:hover,
+ .button-price_four:hover,
+ .button-price_five:hover,
+ .button-price_six:hover {
     color: #000;
     border: 1px solid #000;
     transition: color 0.3s linear;
@@ -536,7 +546,12 @@ body {
         font-size: 19px;
     }
 
-    .button-price {
+    .button-price_one,
+    .button-price_two,
+    .button-price_three,
+    .button-price_four,
+    .button-price_five,
+    .button-price_six {
         padding: 8px 25px;
         font-size: 16px;
     }
@@ -596,11 +611,22 @@ body {
 
     .service__title,
     .service__price,
-    .button-price {
+    .button-price_one,
+    .button-price_two,
+    .button-price_three,
+    .button-price_four,
+    .button-price_five,
+    .button-price_six {
         font-size: 14px;
     }
 
-    .button-price {
+    
+    .button-price_one,
+    .button-price_two,
+    .button-price_three,
+    .button-price_four,
+    .button-price_five,
+    .button-price_six {
         font-size: 10px;
         padding: 5px 5px;
     }

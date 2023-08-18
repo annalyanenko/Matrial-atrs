@@ -3,7 +3,8 @@
 .popup_two,
 .popup_three,
 .popup_four,
-.popup_five {
+.popup_five,
+.popup_six {
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +27,8 @@
 .popup_open_two,
 .popup_open_three,
 .popup_open_four, 
-.popup_open_five {
+.popup_open_five,
+.popup_open_six {
     visibility: visible;
     opacity: 1;
 }
@@ -36,7 +38,8 @@
 .popup__content_two,
 .popup__content_three,
 .popup__content_four,
-.popup__content_five {
+.popup__content_five,
+.popup__content_six {
     position: relative;
     padding: 94px 79px 86px 55px;
     max-height: 100%;
@@ -86,7 +89,8 @@
 .popup__close-btn_two,
 .popup__close-btn_three,
 .popup__close-btn_four,
-.popup__close-btn_five {
+.popup__close-btn_five,
+.popup__close-btn_six {
     position: absolute;
     top: 32px;
     right: 44px;
@@ -126,7 +130,8 @@
     .popup__close-btn_two,
     .popup__close-btn_three,
     .popup__close-btn_four,
-    .popup__close-btn_five {
+    .popup__close-btn_five,
+    .popup__close-btn_six {
         right: 29px;
         width: 30px;
         height: 30px;

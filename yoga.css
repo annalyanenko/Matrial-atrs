@@ -31,7 +31,7 @@ body {
 
 .nav {
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .nav__item {
