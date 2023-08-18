@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="btn">
-                        <a class="button" href="#">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</a>
+                        <a class="button" href="#price-section">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</a>
                     </div>
                 </div>
         </div>
@@ -81,7 +81,7 @@
             <button class="next-btn" onclick="changeSlide(1)">&gt;</button>
           </div>
     </section>
-<section class="price-section">
+<section id="price-section" class="price-section">
     <div class="container">
         <h2 class="services__title">Стоимость тренировок</h2>
         <div class="services__price-holder">
@@ -89,11 +89,33 @@
               <div class="service__title">Художественная гимнастика для детей</div>
               <div class="service__price">7000₽/мес</div>
               <div class="service__price-btn">
-                <button class="js-button-price button-price">Записаться</button>
+                <button class="js-button-price_one button-price_one">Записаться</button>
               </div>
             </div>
           </div>
     </div> 
+    <div class="js-popup_one popup_one">
+        <div class="js-popup__content_one popup__content_one">
+            <button class="js-popup__close-btn_one popup__close-btn_one"></button>
+            <p class="popup__title">Записаться на тренировку</p>
+            <p class="popup__text">Оставьте ваши контактные данные, чтобы получить консультацию администратора клуба</p>
+            <form class="order__form">
+                <input 
+                class="input order__input"
+                type="name"
+                placeholder="Имя"/>
+                <input 
+                class="input order__input"
+                type="phone"
+                placeholder="Номер телефона"/>
+                <input 
+                class="input order__input"
+                type="text"
+                placeholder="Вопрос"/>
+            </form>
+            <button class="full-width-btn-small">Отправить</button>
+        </div>
+    </div>  
 </section> 
 <section class="section-instructors">
     <div class="container">
@@ -128,5 +150,6 @@
             </div>
         </footer>
     <script src="gallery.js"></script>
+    <script src="popup-one.js"></script>
 </body>
 </html>
